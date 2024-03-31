@@ -1,0 +1,94 @@
+body {
+    background-color: #caf7d1;
+}
+
+.main-menu {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffe6b1;
+}
+
+main {
+    background-color: #fffab3;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: square;
+}
+
+.menu-item a {
+    color: #797979;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img {
+    min-width: 500px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gallery-item {
+    margin: 0%;
+    width: 23%;
+    padding: 5px;
+    border: 1px solid rgb(255, 123, 0);
+    border-radius: 5px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #000000;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+textarea {
+    grid-column: 1/-1;
+}
+
+form button {
+    grid-column: 1/-1;
+}
+
+img {
+    transition: 2.00s;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
+.ventelator {
+    transform: rotate(36000deg);
+}
